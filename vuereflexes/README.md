@@ -1,6 +1,6 @@
 # vuereflexes
 
-Quick and humble side project, to keep Vue.js fresh in my mind.
+[ONGOING] Quick and humble side project, to keep Vue.js fresh in my mind.
 
 
 ## Project Setup
