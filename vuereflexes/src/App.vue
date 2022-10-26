@@ -41,8 +41,8 @@ export default {
         </div>
 
         <div class="sixteen wide column">
-          <Target v-if="ongoing" :delay="delay" @fired="finish"/>
-          <Results v-if="showResults" :score="score"/>
+          <Target v-if="ongoing" :delay="delay" @fired="finish" />
+          <Results v-if="showResults" :score="score" />
         </div>
 
       </div>
@@ -52,4 +52,5 @@ export default {
 </template>
 
 <style>
+
 </style>

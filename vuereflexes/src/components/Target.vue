@@ -9,7 +9,7 @@ export default {
             reactionTime: 0
         }
     },
-    mounted () {
+    mounted() {
         setTimeout(() => {
             this.show = true
             this.startTimer()
@@ -23,7 +23,7 @@ export default {
         },
         fireEvent() {
             clearInterval(this.timer)
-            this.$emit('fired', {'reactionTime': this.reactionTime})
+            this.$emit('fired', { 'reactionTime': this.reactionTime })
         }
     }
 }
@@ -36,4 +36,5 @@ export default {
 </template>
 
 <style scoped>
+
 </style>
